@@ -25,7 +25,7 @@ client = SecretClient(vault_url=AZURE_KEY_VAULT_URL, credential=credential)
 
 _dbhostname = client.get_secret("HW13-DBHOSTNAME")
 _dbusername = client.get_secret("HW13-DBUSERNAME")
-_dbpassword = client.get_secret("HW13-DBPASSWORD")
+_dbpassword = client.get_secret("HW13-DBPASSWORD2")
 _dbname = client.get_secret("HW13-DBNAME")
 _secret = client.get_secret("HW13-SECRET-KEY")
 
